@@ -7,8 +7,9 @@
 
 #### Load Required Packages ####
 if (!require("onewaytests")) install.packages("onewaytests")
+if (!require("car")) install.packages("car")
 
-
+library(car) #Required for Levene's test
 library(onewaytests) #Helpful for assumption testing
 
 
